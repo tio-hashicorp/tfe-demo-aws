@@ -16,6 +16,12 @@ variable name {
   default     = "tfe-aws-demo"
 }
 
+variable owner {
+  type        = string
+  description = "Value for Owner tag for resources provisioned."
+  default     = "ykhemani"
+}
+
 variable ttl {
   type        = string
   description = "Value for TTL tag for resources provisioned."
